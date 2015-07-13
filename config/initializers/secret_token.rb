@@ -19,4 +19,4 @@ def secure_token
   end
 end
 
-SampleApp40::Application.config.secret_key_base = secure_token
+SampleApp::Application.config.secret_key_base = secure_token
